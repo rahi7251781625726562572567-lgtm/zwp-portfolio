@@ -1,0 +1,11 @@
+{
+  "name": "zwp-portfolio",
+  "framework": null,
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/particle", "dest": "/particle.html" },
+    { "src": "/projects", "dest": "/projects.html" }
+  ]
+}
