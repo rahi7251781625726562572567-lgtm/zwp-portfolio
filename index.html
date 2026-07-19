@@ -3,104 +3,93 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ZWP · 粉蓝科技 · 作品集</title>
-<meta name="description" content="ZWP 的个人作品集——独立开发者，生于 2004，ENFP，AI Native。粒子视觉、本地推理、开源爆款。">
-<meta property="og:title" content="ZWP · 粉蓝科技 · 作品集">
+<title>ZWP · 粉蓝宫廷 · 作品集</title>
+<meta name="description" content="ZWP 的个人作品集——生于 2004，ENFP，独立开发者。粒子视觉、本地推理、开源爆款。">
+<meta property="og:title" content="ZWP · 粉蓝宫廷 · 作品集">
 <meta property="og:description" content="独立开发者 · 生于烟火，长于代码">
-<meta property="og:type" content="website">
-<meta name="theme-color" content="#0a0e17">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💠</text></svg>">
+<meta name="theme-color" content="#faf6f0">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<canvas id="bg-canvas"></canvas>
 
-<nav class="navbar">
-  <div class="navbar-inner">
-    <div class="logo">ZWP <span>//</span> 作品集</div>
-    <div class="nav-links">
-      <a href="#about" class="active">👤 关于</a>
-      <a href="#projects">📦 作品</a>
-      <a href="#particle">✨ 粒子</a>
-      <a href="#local">🏠 本地</a>
-    </div>
-  </div>
-</nav>
+<div class="corner corner-tl"></div>
+<div class="corner corner-tr"></div>
+<div class="corner corner-bl"></div>
+<div class="corner corner-br"></div>
 
 <div class="container">
-  <!-- ===== Hero ===== -->
-  <section class="hero" id="about">
-    <div class="avatar">
-      <img src="avatar.png" alt="ZWP" id="avatar-img">
-      <div class="status-dot"></div>
-    </div>
-    <h1>ZWP</h1>
-    <div class="subtitle">独立开发者 · 产品创造者 · AI Native</div>
-    <div class="tags">
-      <span class="tag">🎂 2004.1.8</span>
-      <span class="tag">♑ 摩羯 · ENFP</span>
-      <span class="tag">💻 全栈</span>
-      <span class="tag">🎨 粒子视觉</span>
-      <span class="tag">🧠 本地 AI</span>
-    </div>
-    <div style="margin-top:20px;display:flex;justify-content:center;gap:12px">
-      <a href="https://github.com/rahi7251781625726562572567-lgtm" target="_blank" style="padding:8px 20px;border-radius:10px;border:1px solid var(--border);background:var(--bg-card);color:var(--powder);text-decoration:none;font-size:13px;transition:all .2s">🐙 GitHub</a>
-    </div>
-  </section>
 
-  <!-- ===== About ===== -->
-  <section class="section" id="section-about">
-    <div class="section-header">
-      <h2>/ about</h2>
-      <p>生于烟火，长于代码</p>
-      <div class="line"></div>
+  <!-- ===== Hero ===== -->
+  <header class="hero">
+    <div class="rainbow-arc"></div>
+    <div class="avatar-frame">
+      <img src="avatar.png" alt="ZWP" id="avatar-img">
     </div>
-    <div class="about-grid">
-      <div class="about-item"><div class="label">birth</div><div class="value">2004.01.08</div></div>
-      <div class="about-item"><div class="label">zodiac</div><div class="value">♑ 摩羯座</div></div>
-      <div class="about-item"><div class="label">personality</div><div class="value">🌈 ENFP 竞选者</div></div>
-      <div class="about-item"><div class="label">role</div><div class="value">💻 独立开发者</div></div>
-      <div class="about-item full">
-        <div class="label">✦ manifesto</div>
-        <div class="bio">
-          "把脑子里的想法变成产品，把产品变成现实。从粒子视觉到本地推理，从宫廷美学到 AI Agent——我创造，故我在。每个作品都必须可跑、可用、可验收。"
+    <div class="bow"></div>
+    <h1>ZWP</h1>
+    <p class="subtitle">— 生于烟火 · 长于代码 —</p>
+    <div class="badge-row">
+      <span class="badge">🎂 2004.1.8</span>
+      <span class="badge">♑ 摩羯座</span>
+      <span class="badge">🌈 ENFP</span>
+      <span class="badge">💻 独立开发者</span>
+      <a href="https://github.com/rahi7251781625726562572567-lgtm" target="_blank" class="badge" style="text-decoration:none;cursor:pointer">🐙 GitHub</a>
+    </div>
+  </header>
+
+  <div class="lace-divider"></div>
+
+  <!-- ===== 关于我 ===== -->
+  <section>
+    <div class="section-title-wrap">
+      <div class="ornament">✦ ✦ ✦</div>
+      <h2>À propos de moi</h2>
+      <p>关于我 · 一位 04 年的独立创造者</p>
+      <div class="lace-line"></div>
+    </div>
+
+    <div class="about-card">
+      <div class="about-grid">
+        <div class="about-item"><div class="label">🎂 出生</div><div class="value">2004 年 1 月 8 日</div></div>
+        <div class="about-item"><div class="label">♑ 星座</div><div class="value">摩羯座 · Capricorn</div></div>
+        <div class="about-item"><div class="label">🌈 人格</div><div class="value">ENFP · 竞选者</div></div>
+        <div class="about-item"><div class="label">💻 角色</div><div class="value">独立开发者 · 产品创造者</div></div>
+        <div class="about-item full">
+          <div class="label">🎯 信条</div>
+          <div class="bio">"把脑子里的想法变成产品，把产品变成现实。从粒子视觉到本地推理，从粉蓝宫廷到 AI Agent——我创造，故我在。每个作品都必须可跑、可用、可验收。"</div>
         </div>
       </div>
     </div>
 
-    <!-- Skills -->
-    <div class="section-header" style="margin-top:48px">
-      <h2>/ skills</h2>
-      <p></p>
-      <div class="line"></div>
-    </div>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px">
-      <div class="project-card"><div class="card-body"><div style="font-size:28px;margin-bottom:6px">🎨</div><h3>前端 & 视觉</h3><p>Canvas 粒子系统 · 粉蓝科技美学 · 响应式 · 玻璃拟态</p></div></div>
-      <div class="project-card"><div class="card-body"><div style="font-size:28px;margin-bottom:6px">🧠</div><h3>AI & 本地推理</h3><p>Ollama 部署 · Agent 开发 · RAG · MCP 协议 · 7 种人格模式</p></div></div>
-      <div class="project-card"><div class="card-body"><div style="font-size:28px;margin-bottom:6px">🔧</div><h3>全栈工程</h3><p>Python · Node.js · TypeScript · Next.js · FastAPI</p></div></div>
-      <div class="project-card"><div class="card-body"><div style="font-size:28px;margin-bottom:6px">📦</div><h3>产品 & 开源</h3><p>爆款复刻 · 开源贡献 · 产品从 0 到 1 · 17K⭐ + 85K⭐</p></div></div>
+    <div class="traits">
+      <div class="trait"><div class="icon">🎨</div><h4>审美驱动</h4><p>粉蓝宫廷 · 粒子视觉 · 蕾丝花边</p></div>
+      <div class="trait"><div class="icon">🧠</div><h4>AI Native</h4><p>本地推理 · Agent 开发 · MCP</p></div>
+      <div class="trait"><div class="icon">🔧</div><h4>全栈创造</h4><p>前端 · 后端 · 产品从 0 到 1</p></div>
+      <div class="trait"><div class="icon">🌍</div><h4>开源精神</h4><p>分享 · 共建 · 爆款复刻</p></div>
     </div>
   </section>
 
-  <!-- ===== Projects ===== -->
-  <section class="section" id="section-projects">
-    <div class="section-header">
-      <h2>/ projects</h2>
-      <p>可对外展示的作品</p>
-      <div class="line"></div>
+  <div class="lace-divider"></div>
+
+  <!-- ===== 作品集 ===== -->
+  <section>
+    <div class="section-title-wrap">
+      <div class="ornament">♧ ♧ ♧</div>
+      <h2>Mes Projets</h2>
+      <p>作品集 · 每一个都可运行可验收</p>
+      <div class="lace-line"></div>
     </div>
 
     <div class="projects-grid">
       <!-- DeepWiki -->
       <div class="project-card">
+        <span class="type-badge external">🌐 外用</span>
         <div class="card-body">
-          <span class="card-tag tag-ai">📖 AI Wiki · 17.3K⭐</span>
+          <span class="card-tag">📖 AI Wiki · 17.3K⭐</span>
           <h3>DeepWiki-Open</h3>
-          <p>输入 GitHub 仓库地址，自动分析代码结构、生成文档和 Mermaid 图表。支持 Gemini/OpenAI/Ollama 多种模型。RAG 问答。</p>
-          <div class="tech-stack">
-            <span class="tech">Python</span><span class="tech">Next.js</span><span class="tech">FastAPI</span>
-            <span class="tech">RAG</span><span class="tech">FAISS</span>
-          </div>
+          <p>AI 驱动的代码仓库 Wiki 生成器。输入 GitHub 地址，自动分析代码结构、生成文档和 Mermaid 图表。支持 Gemini / OpenAI / Ollama 多种模型。RAG 问答。</p>
+          <div class="tech-stack"><span class="tech">Python</span><span class="tech">Next.js</span><span class="tech">FastAPI</span><span class="tech">FAISS</span></div>
           <div class="card-links">
             <a href="https://github.com/AsyncFuncAI/deepwiki-open" class="btn-primary" target="_blank">🐙 GitHub</a>
             <a href="https://grok-wiki.com" class="btn-secondary" target="_blank">官网</a>
@@ -110,14 +99,12 @@
 
       <!-- Wigolo -->
       <div class="project-card">
+        <span class="type-badge external">🌐 外用</span>
         <div class="card-body">
-          <span class="card-tag tag-ai">🔎 搜索 MCP · 620⭐</span>
+          <span class="card-tag">🔎 搜索 MCP · 620⭐</span>
           <h3>Wigolo · 本地搜索引擎</h3>
-          <p>Local-first 网络智能 MCP 服务器。18 个搜索引擎适配器，ML 交叉编码器重排序，无需 API Key，零成本。为 AI Agent 而生。</p>
-          <div class="tech-stack">
-            <span class="tech">TypeScript</span><span class="tech">MCP</span>
-            <span class="tech">Playwright</span><span class="tech">ONNX</span>
-          </div>
+          <p>Local-first 网络智能 MCP 服务器。18 个搜索引擎适配器，ML 交叉编码器重排序，无需 API Key，零成本运行。为 AI Agent 而生。</p>
+          <div class="tech-stack"><span class="tech">TypeScript</span><span class="tech">MCP</span><span class="tech">Playwright</span><span class="tech">ONNX</span></div>
           <div class="card-links">
             <a href="https://github.com/KnockOutEZ/wigolo" class="btn-primary" target="_blank">🐙 GitHub</a>
           </div>
@@ -126,14 +113,12 @@
 
       <!-- Ponytail -->
       <div class="project-card">
+        <span class="type-badge external">🌐 外用</span>
         <div class="card-body">
-          <span class="card-tag tag-ai">🤖 Agent Skill · 85K⭐</span>
+          <span class="card-tag">🤖 Agent Skill · 85K⭐</span>
           <h3>Ponytail · 老油条程序员</h3>
-          <p>让 AI Agent 像组里待最久的那个老油条程序员一样写代码：YAGNI、删掉没用的、能跑就别动。~54% 更少代码，~20% 更便宜。</p>
-          <div class="tech-stack">
-            <span class="tech">Agent Skills</span><span class="tech">Prompt Engineering</span>
-            <span class="tech">Cursor</span><span class="tech">Claude Code</span>
-          </div>
+          <p>让 AI Agent 像组里待最久的那个老油条程序员一样写代码：YAGNI、删掉没用的、能跑就别动。~54% 更少代码，~20% 更便宜，100% 安全。</p>
+          <div class="tech-stack"><span class="tech">Agent Skills</span><span class="tech">Prompt Engineering</span><span class="tech">Cursor</span></div>
           <div class="card-links">
             <a href="https://github.com/DietrichGebert/ponytail" class="btn-primary" target="_blank">🐙 GitHub</a>
           </div>
@@ -142,198 +127,130 @@
 
       <!-- 粒子播放器 -->
       <div class="project-card">
+        <span class="type-badge local">🏠 本地</span>
         <div class="card-body">
-          <span class="card-tag tag-music">🎵 粒子视觉</span>
+          <span class="card-tag">🎵 粒子视觉</span>
           <h3>粒子视觉播放器</h3>
-          <p>Canvas 2D 粒子系统，420-760 粒子沿椭圆轨道运动。从 Mineradio (8.5K⭐) 提取核心引擎，32 种配色，播放时粒子加速响应。可嵌入任何页面。</p>
-          <div class="tech-stack">
-            <span class="tech">Canvas 2D</span><span class="tech">JavaScript</span>
-            <span class="tech">CSS3</span>
-          </div>
+          <p>Canvas 2D 粒子系统，420-760 粒子沿椭圆轨道运动。从 Mineradio (8.5K⭐) 提取核心引擎，32 种粉蓝配色。可嵌入你的播放器。</p>
+          <div class="tech-stack"><span class="tech">Canvas 2D</span><span class="tech">JavaScript</span><span class="tech">CSS3</span></div>
           <div class="card-links">
-            <a href="#particle" class="btn-primary">🎯 查看演示</a>
-            <a href="#local" class="btn-secondary">本地完整版</a>
+            <a href="http://localhost:8080" class="btn-primary" target="_blank">🎯 本地体验</a>
+            <a href="https://github.com/XxHuberrr/Mineradio" class="btn-secondary" target="_blank">灵感来源</a>
           </div>
         </div>
       </div>
 
       <!-- 推理面板 -->
       <div class="project-card">
+        <span class="type-badge local">🏠 本地</span>
         <div class="card-body">
-          <span class="card-tag tag-hybrid">🧠 混合部署</span>
+          <span class="card-tag">🧠 本地 AI</span>
           <h3>本地推理面板</h3>
           <p>Ollama 驱动的本地 AI 对话面板。7 种人格模式：通用对话、编程助手、老油条程序员、文案润色、创意脑暴、教学讲解、现代诗。完全离线。</p>
-          <div class="tech-stack">
-            <span class="tech">Ollama</span><span class="tech">Qwen3 1.7B</span>
-            <span class="tech">Streaming</span><span class="tech">本地优先</span>
-          </div>
+          <div class="tech-stack"><span class="tech">Ollama</span><span class="tech">Qwen3</span><span class="tech">Streaming</span></div>
           <div class="card-links">
-            <a href="#local" class="btn-primary">🔗 本地体验</a>
+            <a href="http://localhost:8080/inference-panel.html" class="btn-primary" target="_blank">🎯 本地体验</a>
           </div>
         </div>
       </div>
 
-      <!-- 本网站 -->
+      <!-- 个人网站 -->
       <div class="project-card">
+        <span class="type-badge external">🌐 外用</span>
         <div class="card-body">
-          <span class="card-tag tag-external">👑 个人作品集</span>
-          <h3>ZWP 个人网站</h3>
-          <p>粉蓝科技风设计，玻璃拟态 + Canvas 粒子背景。Vercel 部署，展示个人作品与技术栈。就是你现在看到的这个站。</p>
-          <div class="tech-stack">
-            <span class="tech">HTML/CSS</span><span class="tech">Canvas</span>
-            <span class="tech">Vercel</span><span class="tech">粉蓝美学</span>
-          </div>
+          <span class="card-tag">👑 个人作品集</span>
+          <h3>ZWP · 粉蓝宫廷</h3>
+          <p>粉蓝宫廷风个人作品集。蕾丝花边、蝴蝶结、对称装饰、Playfair Display 衬线字体。Vercel 部署，展示所有作品。</p>
+          <div class="tech-stack"><span class="tech">HTML/CSS</span><span class="tech">宫廷美学</span><span class="tech">Vercel</span></div>
           <div class="card-links">
-            <a href="https://github.com/rahi7251781625726562572567-lgtm" class="btn-secondary" target="_blank">🐙 作者主页</a>
+            <a href="https://github.com/rahi7251781625726562572567-lgtm/zwp-portfolio" class="btn-primary" target="_blank">🐙 GitHub</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== Particle Demo ===== -->
-  <section class="section" id="section-particle">
-    <div class="section-header">
-      <h2>/ particle visual</h2>
-      <p>Canvas 2D 粒子系统 · 实时渲染 · 从 Mineradio 提取</p>
-      <div class="line"></div>
+  <div class="lace-divider"></div>
+
+  <!-- ===== 粒子视觉展示 ===== -->
+  <section>
+    <div class="section-title-wrap">
+      <div class="ornament">♤ ♤ ♤</div>
+      <h2>Particle Visual</h2>
+      <p>粒子视觉系统 · 实时预览</p>
+      <div class="lace-line"></div>
     </div>
-    <div class="local-notice">
-      <span class="icon">✨</span>
-      <div class="text">
-        <strong>在线粒子演示</strong><br>
-        下方是精简版粒子系统（~200-500 粒子，椭圆轨道 + 中心辉光）。<br>
-        完整版（32 主题色 + 封面上传 + 播放控制）请在本机打开体验。
-      </div>
+
+    <div class="local-note">
+      <span class="icon">💡</span>
+      <div class="text"><strong>在线演示</strong> · 下方是嵌入的粒子播放器（需本机 localhost:8080 运行）。完整 32 色 + 封面上传 + 播放控制。</div>
     </div>
-    <div class="demo-canvas-wrap">
-      <canvas id="demo-canvas"></canvas>
+    <div class="particle-frame">
+      <iframe src="http://localhost:8080" title="粒子视觉预览" loading="lazy"></iframe>
     </div>
   </section>
 
-  <!-- ===== Local Services ===== -->
-  <section class="section" id="section-local">
-    <div class="section-header">
-      <h2>/ local services</h2>
-      <p>需在本机运行才能体验完整功能</p>
-      <div class="line"></div>
+  <div class="lace-divider"></div>
+
+  <!-- ===== 本地服务 ===== -->
+  <section>
+    <div class="section-title-wrap">
+      <div class="ornament">♡ ♡ ♡</div>
+      <h2>Services Locaux</h2>
+      <p>本地服务 · 本机运行获得完整体验</p>
+      <div class="lace-line"></div>
     </div>
 
-    <div class="local-notice">
-      <span class="icon">💻</span>
-      <div class="text">
-        <strong>以下服务需要在你的电脑上本地启动</strong><br>
-        所有项目皆开源，克隆后即可运行。数据不上传云端，完全隐私安全。
-      </div>
+    <div class="local-note">
+      <span class="icon">🏠</span>
+      <div class="text"><strong>本地运行</strong> · 以下服务需要在你的电脑上启动。所有项目开源，数据不上传云端。</div>
     </div>
 
     <div class="projects-grid">
       <div class="project-card">
         <div class="card-body">
-          <span class="card-tag tag-music">🎵 本地</span>
-          <h3>粒子视觉播放器</h3>
-          <p>完整版：32 主题色、封面上传、播放控制、粒子节奏响应。</p>
-          <div style="padding:6px 0;font-size:12px;font-family:var(--font-mono);color:var(--text-muted)">cd particle-player && python3 -m http.server 8080</div>
-          <div class="card-links">
-            <a href="http://localhost:8080" class="btn-primary" target="_blank">🎯 本地打开</a>
-          </div>
+          <span class="card-tag">🎵 粒子播放器</span>
+          <h3>Particle Player</h3>
+          <p>完整粒子视觉系统 · 32 主题色 · 封面上传 · 播放控制</p>
+          <div style="padding:4px 0;font-size:12px;font-family:'Inter',sans-serif;color:var(--text-light)">cd particle-player && python3 -m http.server 8080</div>
+          <div class="card-links"><a href="http://localhost:8080" class="btn-primary" target="_blank">🎯 打开</a></div>
         </div>
       </div>
 
       <div class="project-card">
         <div class="card-body">
-          <span class="card-tag tag-ai">🧠 本地</span>
-          <h3>本地推理面板</h3>
-          <p>7 种人格模式，Ollama + Qwen3 驱动，流式对话。</p>
-          <div style="padding:6px 0;font-size:12px;font-family:var(--font-mono);color:var(--text-muted)">ollama serve && 打开 inference-panel.html</div>
-          <div class="card-links">
-            <a href="http://localhost:8080/inference-panel.html" class="btn-primary" target="_blank">🎯 本地打开</a>
-          </div>
+          <span class="card-tag">🧠 推理面板</span>
+          <h3>Inference Panel</h3>
+          <p>Ollama 驱动 · 7 种人格 · 流式对话 · 完全离线</p>
+          <div style="padding:4px 0;font-size:12px;font-family:'Inter',sans-serif;color:var(--text-light)">ollama serve && 访问 localhost:8080/inference-panel.html</div>
+          <div class="card-links"><a href="http://localhost:8080/inference-panel.html" class="btn-primary" target="_blank">🎯 打开</a></div>
         </div>
       </div>
 
       <div class="project-card">
         <div class="card-body">
-          <span class="card-tag tag-ai">📖 本地</span>
-          <h3>DeepWiki 本地版</h3>
-          <p>前后端 + Ollama 完全本地运行。</p>
-          <div style="padding:6px 0;font-size:12px;font-family:var(--font-mono);color:var(--text-muted)">poetry install && cd .. && npm run dev</div>
-          <div class="card-links">
-            <a href="http://localhost:3000" class="btn-primary" target="_blank">🎯 本地打开</a>
-          </div>
+          <span class="card-tag">📖 DeepWiki</span>
+          <h3>DeepWiki Local</h3>
+          <p>AI Wiki 生成 · 前后端 + Ollama 完全本地运行</p>
+          <div style="padding:4px 0;font-size:12px;font-family:'Inter',sans-serif;color:var(--text-light)">npm run dev + python -m api.main</div>
+          <div class="card-links"><a href="http://localhost:3000" class="btn-primary" target="_blank">🎯 打开</a></div>
         </div>
       </div>
     </div>
   </section>
+
 </div>
 
 <footer>
-  <p>Made with <span class="heart">♥</span> by ZWP · 2026</p>
-  <p style="margin-top:8px;font-size:10px">
-    <a href="https://vercel.com" target="_blank" style="color:var(--text-muted);text-decoration:none">▲ Powered by Vercel</a>
-  </p>
+  <p>Made with <span class="heart">♡</span> by ZWP · 2026 · 生于烟火，长于代码</p>
 </footer>
 
 <script>
-// ===== 背景粒子 =====
-(function(){
-  const c=document.getElementById('bg-canvas'),x=c.getContext('2d');
-  let W,H,p=[];
-  function r(){W=c.width=innerWidth;H=c.height=innerHeight}
-  addEventListener('resize',r);r();
-  const n=Math.min(100,Math.floor(W*H/18000));
-  for(let i=0;i<n;i++)p.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3,r:Math.random()*2+.5,a:Math.random()*.3+.05});
-  function d(){x.clearRect(0,0,W,H);p.forEach(q=>{q.x+=q.vx;q.y+=q.vy;if(q.x<0)q.x=W;if(q.x>W)q.x=0;if(q.y<0)q.y=H;if(q.y>H)q.y=0;x.beginPath();x.arc(q.x,q.y,q.r,0,Math.PI*2);x.fillStyle=`rgba(181,216,232,${q.a})`;x.fill()});
-  for(let i=0;i<p.length;i++)for(let j=i+1;j<p.length;j++){const dx=p[i].x-p[j].x,dy=p[i].y-p[j].y,dist=Math.sqrt(dx*dx+dy*dy);if(dist<150){x.beginPath();x.moveTo(p[i].x,p[i].y);x.lineTo(p[j].x,p[j].y);x.strokeStyle=`rgba(181,216,232,${.06*(1-dist/150)})`;x.lineWidth=.5;x.stroke()}}
-  requestAnimationFrame(d)}d()})();
-
-// ===== 粒子演示 (来自 Mineradio) =====
-(function(){
-  const c=document.getElementById('demo-canvas');if(!c)return;
-  const x=c.getContext('2d');let W,H,p=[];
-  const cl={p:'#b5d8e8',s:'#5b8def',h:'#67e8f9',g:'#5b8def'};
-  function rs(){const b=c.parentElement.getBoundingClientRect();W=c.width=b.width;H=c.height=b.height;c.style.width=W+'px';c.style.height=H+'px';e()}
-  function rd(s){return Math.abs(Math.sin(s*3187.917)*43758.5453)%1}
-  function e(){const t=Math.min(500,Math.max(200,Math.round(W*H/5000)));while(p.length<t){const i=p.length+1;p.push({seed:i*11.37,x:rd(i),y:rd(i*2.7),lane:rd(i*5.9),z:rd(i*8.1),size:.6+rd(i*4.2)*2.4})}if(p.length>t+80)p.length=t}
-  function h2r(h,f){h=String(h||f||'#5b8def').trim();if(/^#[0-9a-f]{3}$/i.test(h))h='#'+h[1]+h[1]+h[2]+h[2]+h[3]+h[3];if(!/^#[0-9a-f]{6}$/i.test(h))h=f||'#5b8def';return{r:parseInt(h.slice(1,3),16),g:parseInt(h.slice(3,5),16),b:parseInt(h.slice(5,7),16)}}
-  function ga(h,a){const c=h2r(h);return`rgba(${c.r},${c.g},${c.b},${a})`}
-  addEventListener('resize',rs);rs();
-  function dw(t){
-    const n=t*.001;e();const clr=cl;
-    const bg=x.createLinearGradient(0,0,W,H);
-    bg.addColorStop(0,'#050608');bg.addColorStop(.52,ga(clr.p,.12));bg.addColorStop(1,ga(clr.s,.1));
-    x.globalCompositeOperation='source-over';x.globalAlpha=1;x.fillStyle=bg;x.fillRect(0,0,W,H);
-    x.save();x.globalCompositeOperation='lighter';
-    const cx=W*.5,cy=H*.5+Math.sin(n*.28)*H*.018,rx=W*.4,ry=H*.3;
-    for(let i=0;i<p.length;i++){
-      const q=p[i],sp=.009+rd(q.seed)*.021+.008,a=(q.x*Math.PI*2+n*sp+Math.sin(n*.07+q.seed)*.14)%(Math.PI*2);
-      const ri=.18+q.z*.82,wb=Math.sin(n*(.22+rd(q.seed)*.18)+q.seed)*12;
-      const xv=cx+Math.cos(a)*rx*ri+Math.sin(n*.11+q.seed)*24,yv=cy+Math.sin(a*(1+rd(q.seed*2)*.16))*ry*ri+wb;
-      const tw=Math.pow(.5+.5*Math.sin(n*(.5+rd(q.seed)*.42)+q.seed),4),r=Math.max(.7,q.size*(.8+tw*1.2));
-      const col=tw>.74?clr.h:q.lane>.55?clr.s:clr.g;
-      x.globalAlpha=(.045+tw*.18+.02);x.fillStyle=col;x.beginPath();x.arc(xv,yv,r,0,Math.PI*2);x.fill();
-    }
-    const au=x.createRadialGradient(cx,cy,0,cx,cy,Math.max(W,H)*.54);
-    au.addColorStop(0,ga(clr.h,.12));au.addColorStop(.34,ga(clr.s,.08));au.addColorStop(1,'rgba(0,0,0,0)');
-    x.globalAlpha=.9;x.fillStyle=au;x.fillRect(0,0,W,H);x.restore();
-    requestAnimationFrame(dw);
-  }
-  requestAnimationFrame(dw);
-})();
-
-// ===== 导航 =====
-document.querySelectorAll('.nav-links a').forEach(l=>{
-  l.addEventListener('click',e=>{
-    e.preventDefault();
-    const t=document.querySelector(l.getAttribute('href'));
-    if(t){t.scrollIntoView({behavior:'smooth'});document.querySelectorAll('.nav-links a').forEach(x=>x.classList.remove('active'));l.classList.add('active')}
-  });
-});
-
-// ===== 头像 fallback =====
+// 头像 fallback
 document.getElementById('avatar-img').onerror=function(){
   this.style.display='none';const f=this.parentElement,d=document.createElement('div');
-  d.textContent='ZW';d.style.cssText='width:100%;height:100%;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:32px;font-weight:700;background:linear-gradient(135deg,#b5d8e8,#5b8def);color:white;';f.appendChild(d);
+  d.textContent='ZW';d.style.cssText='width:100%;height:100%;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:32px;font-weight:700;background:linear-gradient(135deg,#b8d4e3,#8ab4cc);color:white;font-family:Playfair Display,serif;';
+  f.appendChild(d);
 };
 </script>
 </body>
