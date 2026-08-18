@@ -3,58 +3,76 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ZWP · 粉蓝宫廷 · 作品集</title>
+<title>ZWP · 生于烟火 长于代码</title>
 <meta name="description" content="ZWP 的个人作品集——生于 2004，ENFP，独立开发者。粒子视觉、本地推理、开源爆款。">
-<meta property="og:title" content="ZWP · 粉蓝宫廷 · 作品集">
+<meta property="og:title" content="ZWP · 生于烟火 长于代码">
 <meta property="og:description" content="独立开发者 · 生于烟火，长于代码">
-<meta name="theme-color" content="#faf6f0">
+<meta name="theme-color" content="#101C33">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="corner corner-tl"></div>
-<div class="corner corner-tr"></div>
-<div class="corner corner-bl"></div>
-<div class="corner corner-br"></div>
+<!-- ===== Hero 品牌区 ===== -->
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="hero-top">
+      <span class="hero-brand">ZWP · CREATOR</span>
+      <span class="status-badge"><span class="dot ok"></span>Available</span>
+    </div>
+    <div class="avatar-frame">
+      <img src="avatar.png" alt="ZWP" id="avatar-img">
+      <div class="avatar-ring"></div>
+    </div>
+    <h1 class="hero-title">ZWP</h1>
+    <div class="hero-line"></div>
+    <p class="hero-sub">生于烟火 · 长于代码</p>
+    <div class="hero-badges">
+      <span class="h-badge">🎂 2004.1.8</span>
+      <span class="h-badge">♑ 摩羯座</span>
+      <span class="h-badge">🌈 ENFP</span>
+      <span class="h-badge">💻 独立开发者</span>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 胶囊导航 ===== -->
+<div class="nav-wrap">
+  <button class="nav-tab on" data-target="about">✦ 关于我</button>
+  <button class="nav-tab" data-target="projects">♧ 作品集</button>
+  <button class="nav-tab" data-target="local">♡ 本地服务</button>
+  <a class="nav-tab" href="https://github.com/rahi7251781625726562572567-lgtm" target="_blank">🐙 GitHub</a>
+</div>
 
 <div class="container">
 
-  <!-- ===== Hero ===== -->
-  <header class="hero">
-    <div class="rainbow-arc"></div>
-    <div class="avatar-frame">
-      <img src="avatar.png" alt="ZWP" id="avatar-img">
-    </div>
-    <div class="bow"></div>
-    <h1>ZWP</h1>
-    <p class="subtitle">— 生于烟火 · 长于代码 —</p>
-    <div class="badge-row">
-      <span class="badge">🎂 2004.1.8</span>
-      <span class="badge">♑ 摩羯座</span>
-      <span class="badge">🌈 ENFP</span>
-      <span class="badge">💻 独立开发者</span>
-      <a href="https://github.com/rahi7251781625726562572567-lgtm" target="_blank" class="badge" style="text-decoration:none;cursor:pointer">🐙 GitHub</a>
-    </div>
-  </header>
-
-  <div class="lace-divider"></div>
-
   <!-- ===== 关于我 ===== -->
-  <section>
-    <div class="section-title-wrap">
-      <div class="ornament">✦ ✦ ✦</div>
-      <h2>À propos de moi</h2>
-      <p>关于我 · 一位 04 年的独立创造者</p>
-      <div class="lace-line"></div>
+  <section id="about">
+    <div class="section-header">
+      <div class="gold-rule"></div>
+      <h2 class="section-title">关于我</h2>
+      <p class="section-sub">一位 04 年的独立创造者</p>
     </div>
 
     <div class="about-card">
       <div class="about-grid">
-        <div class="about-item"><div class="label">🎂 出生</div><div class="value">2004 年 1 月 8 日</div></div>
-        <div class="about-item"><div class="label">♑ 星座</div><div class="value">摩羯座 · Capricorn</div></div>
-        <div class="about-item"><div class="label">🌈 人格</div><div class="value">ENFP · 竞选者</div></div>
-        <div class="about-item"><div class="label">💻 角色</div><div class="value">独立开发者 · 产品创造者</div></div>
+        <div class="about-item">
+          <div class="label">🎂 出生</div>
+          <div class="value">2004 年 1 月 8 日</div>
+        </div>
+        <div class="about-item">
+          <div class="label">♑ 星座</div>
+          <div class="value">摩羯座 · Capricorn</div>
+        </div>
+        <div class="about-item">
+          <div class="label">🌈 人格</div>
+          <div class="value">ENFP · 竞选者</div>
+        </div>
+        <div class="about-item">
+          <div class="label">💻 角色</div>
+          <div class="value">独立开发者 · 产品创造者</div>
+        </div>
         <div class="about-item full">
           <div class="label">🎯 信条</div>
           <div class="bio">"把脑子里的想法变成产品，把产品变成现实。从粒子视觉到本地推理，从粉蓝宫廷到 AI Agent——我创造，故我在。每个作品都必须可跑、可用、可验收。"</div>
@@ -63,22 +81,37 @@
     </div>
 
     <div class="traits">
-      <div class="trait"><div class="icon">🎨</div><h4>审美驱动</h4><p>粉蓝宫廷 · 粒子视觉 · 蕾丝花边</p></div>
-      <div class="trait"><div class="icon">🧠</div><h4>AI Native</h4><p>本地推理 · Agent 开发 · MCP</p></div>
-      <div class="trait"><div class="icon">🔧</div><h4>全栈创造</h4><p>前端 · 后端 · 产品从 0 到 1</p></div>
-      <div class="trait"><div class="icon">🌍</div><h4>开源精神</h4><p>分享 · 共建 · 爆款复刻</p></div>
+      <div class="trait">
+        <div class="icon">🎨</div>
+        <h4>审美驱动</h4>
+        <p>粉蓝宫廷 · 粒子视觉 · 蕾丝花边</p>
+      </div>
+      <div class="trait">
+        <div class="icon">🧠</div>
+        <h4>AI Native</h4>
+        <p>本地推理 · Agent 开发 · MCP</p>
+      </div>
+      <div class="trait">
+        <div class="icon">🔧</div>
+        <h4>全栈创造</h4>
+        <p>前端 · 后端 · 产品从 0 到 1</p>
+      </div>
+      <div class="trait">
+        <div class="icon">🌍</div>
+        <h4>开源精神</h4>
+        <p>分享 · 共建 · 爆款复刻</p>
+      </div>
     </div>
   </section>
 
   <div class="lace-divider"></div>
 
   <!-- ===== 作品集 ===== -->
-  <section>
-    <div class="section-title-wrap">
-      <div class="ornament">♧ ♧ ♧</div>
-      <h2>Mes Projets</h2>
-      <p>作品集 · 每一个都可运行可验收</p>
-      <div class="lace-line"></div>
+  <section id="projects">
+    <div class="section-header">
+      <div class="gold-rule"></div>
+      <h2 class="section-title">作品集</h2>
+      <p class="section-sub">每一个都可运行可验收</p>
     </div>
 
     <div class="projects-grid">
@@ -118,7 +151,7 @@
           <span class="card-tag">🤖 Agent Skill · 85K⭐</span>
           <h3>Ponytail · 老油条程序员</h3>
           <p>让 AI Agent 像组里待最久的那个老油条程序员一样写代码：YAGNI、删掉没用的、能跑就别动。~54% 更少代码，~20% 更便宜，100% 安全。</p>
-          <div class="tech-stack"><span class="tech">Agent Skills</span><span class="tech">Prompt Engineering</span><span class="tech">Cursor</span></div>
+          <div class="tech-stack"><span class="tech">Agent Skills</span><span class="tech">Prompt Eng.</span><span class="tech">Cursor</span></div>
           <div class="card-links">
             <a href="https://github.com/DietrichGebert/ponytail" class="btn-primary" target="_blank">🐙 GitHub</a>
           </div>
@@ -172,33 +205,12 @@
 
   <div class="lace-divider"></div>
 
-  <!-- ===== 粒子视觉展示 ===== -->
-  <section>
-    <div class="section-title-wrap">
-      <div class="ornament">♤ ♤ ♤</div>
-      <h2>Particle Visual</h2>
-      <p>粒子视觉系统 · 实时预览</p>
-      <div class="lace-line"></div>
-    </div>
-
-    <div class="local-note">
-      <span class="icon">💡</span>
-      <div class="text"><strong>在线演示</strong> · 下方是嵌入的粒子播放器（需本机 localhost:8080 运行）。完整 32 色 + 封面上传 + 播放控制。</div>
-    </div>
-    <div class="particle-frame">
-      <iframe src="http://localhost:8080" title="粒子视觉预览" loading="lazy"></iframe>
-    </div>
-  </section>
-
-  <div class="lace-divider"></div>
-
   <!-- ===== 本地服务 ===== -->
-  <section>
-    <div class="section-title-wrap">
-      <div class="ornament">♡ ♡ ♡</div>
-      <h2>Services Locaux</h2>
-      <p>本地服务 · 本机运行获得完整体验</p>
-      <div class="lace-line"></div>
+  <section id="local">
+    <div class="section-header">
+      <div class="gold-rule"></div>
+      <h2 class="section-title">本地服务</h2>
+      <p class="section-sub">本机运行获得完整体验 · 所有项目开源，数据不上传云端</p>
     </div>
 
     <div class="local-note">
@@ -212,7 +224,7 @@
           <span class="card-tag">🎵 粒子播放器</span>
           <h3>Particle Player</h3>
           <p>完整粒子视觉系统 · 32 主题色 · 封面上传 · 播放控制</p>
-          <div style="padding:4px 0;font-size:12px;font-family:'Inter',sans-serif;color:var(--text-light)">cd particle-player && python3 -m http.server 8080</div>
+          <div class="cmd-line">cd particle-player && python3 -m http.server 8080</div>
           <div class="card-links"><a href="http://localhost:8080" class="btn-primary" target="_blank">🎯 打开</a></div>
         </div>
       </div>
@@ -222,7 +234,7 @@
           <span class="card-tag">🧠 推理面板</span>
           <h3>Inference Panel</h3>
           <p>Ollama 驱动 · 7 种人格 · 流式对话 · 完全离线</p>
-          <div style="padding:4px 0;font-size:12px;font-family:'Inter',sans-serif;color:var(--text-light)">ollama serve && 访问 localhost:8080/inference-panel.html</div>
+          <div class="cmd-line">ollama serve && 访问 localhost:8080/inference-panel.html</div>
           <div class="card-links"><a href="http://localhost:8080/inference-panel.html" class="btn-primary" target="_blank">🎯 打开</a></div>
         </div>
       </div>
@@ -232,7 +244,7 @@
           <span class="card-tag">📖 DeepWiki</span>
           <h3>DeepWiki Local</h3>
           <p>AI Wiki 生成 · 前后端 + Ollama 完全本地运行</p>
-          <div style="padding:4px 0;font-size:12px;font-family:'Inter',sans-serif;color:var(--text-light)">npm run dev + python -m api.main</div>
+          <div class="cmd-line">npm run dev + python -m api.main</div>
           <div class="card-links"><a href="http://localhost:3000" class="btn-primary" target="_blank">🎯 打开</a></div>
         </div>
       </div>
@@ -249,9 +261,20 @@
 // 头像 fallback
 document.getElementById('avatar-img').onerror=function(){
   this.style.display='none';const f=this.parentElement,d=document.createElement('div');
-  d.textContent='ZW';d.style.cssText='width:100%;height:100%;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:32px;font-weight:700;background:linear-gradient(135deg,#b8d4e3,#8ab4cc);color:white;font-family:Playfair Display,serif;';
+  d.textContent='ZW';d.style.cssText='width:100%;height:100%;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:32px;font-weight:700;background:linear-gradient(135deg,#C9A227,#14213D);color:white;font-family:Playfair Display,serif;';
   f.appendChild(d);
 };
+
+// 导航滚动
+document.querySelectorAll('.nav-tab[data-target]').forEach(btn=>{
+  btn.addEventListener('click',e=>{
+    e.preventDefault();
+    document.querySelectorAll('.nav-tab').forEach(b=>b.classList.remove('on'));
+    btn.classList.add('on');
+    const t=document.getElementById(btn.dataset.target);
+    if(t) t.scrollIntoView({behavior:'smooth',block:'start'});
+  });
+});
 </script>
 </body>
 </html>
